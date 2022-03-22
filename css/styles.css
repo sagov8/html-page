@@ -130,3 +130,24 @@ img{
       padding-left: 3rem;
       padding-right: 3rem;
   }
+
+  hr {
+    border-width: 10px;
+    border-style: solid;
+    background-image: linear-gradient(90deg, red, transparent);
+}
+
+.content {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 71, 121, 1) 43%, rgba(193, 244, 255, 0.5298494397759104) 100%);
+    border-radius: 50px;
+    
+}
+
+
+#titulo {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 74, 173, 1) 35%, rgba(98, 198, 236, 1) 100%);
+    
+    padding: 10px;
+}
