@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="shortcut icon" href="..\assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <header> <img src="..\assets/encabezado.jpg" alt="" width="100%"></header>
+    <div style="color: black; background-color: rgb(250, 250, 250);padding-bottom: 3rem;" align="center">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Servicios</a>
+                    <ul>
+                        <li><a href="">Servicio 1</a></li>
+                        <li><a href="">Servicio 2</a></li>
+                        <li><a href="">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="formularios.html">Formularios</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="color: black; background-color: rgb(250, 250, 250); padding-bottom: 3rem;"
+        align="center">
+        <section>
+            <h2 style="font-style: semi-bold">Formularios</h2>
+            <form action="formularios.html" method="get">
+                <table align="center">
+                    <tr>
+                        <th colspan="2">DATOS PERSONALES</th>
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <td><input class="input-text" type="text" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <th>Apellido</th>
+                        <td><input type="text" class="input-text" name="apellido"></td>
+                    </tr>
+                    <tr>
+                        <th>Login</th>
+                        <td><input type="text" class="input-text" name="login"></td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td><input type="password" class="input-text" name="password"></td>
+                    </tr>
+                    <tr>
+                        <th>Género</th>
+                        <td>Masculino<input type="radio" name="genero" value="0" checked>
+                            Femenino<input type="radio" name="genero" value="1">
+                            No binario<input type="radio" name="genero" value="2"></td>
+                    </tr>
+                    <tr>
+                        <th>Hobbies</th>
+                        <td>Programar<input type="checkbox" name="programar" value="programar">
+                            Deportes<input type="checkbox" name="deporte" value="deportes">
+                            Novelas<input type="checkbox" name="novelas" value="novelas"></td>
+                    </tr>
+                    <tr>
+                        <th>Idiomas</th>
+                        <td><select name="idioma" id="idiomas" class="input-text">
+                                <option value="Español">Español</option>
+                                <option value="Inglés">Inglés</option>
+                                <option value="Alemán">Alemán</option>
+                                <option value="Latín">Latín</option>
+                                <option value="Latín">Mandarín</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>Fecha</th>
+                        <td><input type="Date" class="input-text" name="fecha"></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><input type="email" class="input-text" placeholder="alguien@gmail.com" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <th>Comidas</th>
+                        <td><input type="range" style="width: 80;" min="0" max="11" value="0" step="2" name="comidas"></td>
+                    </tr>
+                    <tr>
+                        <th>Escoja un color</th>
+                        <td><input type="color" name="color"></td>
+                    </tr>
+                    <tr>
+                        <th>URL</th>
+                        <td><input type="url" class="input-text" name="url" placeholder="Escribe la URL de tu página"></td>
+                    </tr>
+                    <tr>
+                        <th>Tiempo</th>
+                        <td><input type="time" class="input-text" name="tiempo"></td>
+                    </tr>
+                    <tr>
+                        <th>Fecha y hora de nacimiento</th>
+                        <td><input type="datetime-local" class="input-text" name="nacimiento"></td>
+                    </tr>
+                    <tr>
+                        <th>Mes</th>
+                        <td><input type="month" class="input-text" name="mes"></td>
+                    </tr>
+                    <tr>
+                        <th>Semana</th>
+                        <td><input type="week" class="input-text" name="semana"></td>
+                    </tr>
+                    <tr>
+                        <th>Temperatura</th>
+                        <td><input type="number" class="input-text" name="numero" min="-20" max="50"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <input class="button" type="submit" name="enviar" value="Enviar">
+                            <input class="button-reset" type="reset" name="restablecer" value="Restablecer">    
+                        </th>
+                        
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+    <aside></aside>
+    <footer></footer>
+
+</body>
+
+</html>
