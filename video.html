@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <link rel="shortcut icon" href="..\assets/favicon.ico" type="image/x-icon">
+    <title>Video</title>
 </head>
 
 <body>
@@ -20,9 +21,9 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">¿Quiénes somos?</a></li>
-                <li><a href="#">Servicios</a>
+                <li><a href="#">Tutoriales</a>
                     <ul>
-                        <li><a href="">Servicio 1</a></li>
+                        <li><a href="bordes.html">Bordes</a></li>
                         <li><a href="">Servicio 2</a></li>
                         <li><a href="">Servicio 3</a></li>
                     </ul>
@@ -35,11 +36,40 @@
     <div style="color: black; background-color: #2a2a36; padding-top: 3rem; padding-bottom: 3rem;"
         align="center">
         <section>
+            <h2 class="title">El elemento HTML "< video >"</video></h2>
+            <p class="parrafo">Para mostrar un video en HTML, use la etiqueta < video >:</p>
+            <br>
+            <img src="assets\video-example.jpg" alt="video-example tag html">
+            <br>
+            <br>
+            <h3 class="title">Adicionales</h3>
+            <br>
+            <ul>
+                <li><p class="parrafo">El atributo <strong>controls</strong> agrega controles de video, como reproducción, pausa y volumen.</p></li>
+            </ul>
+
             <h2 class="title">Diferentes estándares de video</h2>
+
+            <video width="500" height="400" controls preload="auto" poster="..\assets\gorillaz.jpg">
+                <source src="..\assets\video.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s61XojpFKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
     </div>
     <aside></aside>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <br>
+            <p>Diseñado por sagov8</p>
+            <br>
+            <a href="https://github.com/sagov8" class="icon-gh"><img src="..\assets/github.png" alt="github" height="30rem"></a>
+            
+        </div>
+    </footer>
 
 </body>
 
