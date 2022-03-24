@@ -20,7 +20,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="quiensoy.html">¿Quién soy?</a></li>
                 <li><a href="#">Tutoriales</a>
                     <ul>
                         <li><a href="bordes.html">Bordes</a></li>
@@ -29,14 +29,39 @@
                     </ul>
                 </li>
                 <li><a href="formularios.html">Formularios</a></li>
-                <li><a href="video.html">Video</a></li>
+                <li><a href="video.html">Multimedia</a></li>
             </ul>
         </nav>
     </div>
     <div style="color: black; background-color: rgb(250, 250, 250); padding-bottom: 3rem;"
         align="center">
         <section>
-            <h2 style="font-style: semi-bold">Formularios</h2>
+            <h2 style="font-style: semi-bold" id="titulo" class="title">Formularios</h2>
+            <p class="parrafo" style="color: black;">Se utiliza un formulario HTML para recopilar la entrada del usuario. La entrada del usuario se envía con mayor frecuencia a un servidor para su procesamiento.</p>
+            <br>
+            <p class="parrafo" style="color: black;">
+                Los formularios fueron una de las primeras mejoras que se dieron a conocer de HTML5 y de las que más revuelo causaron, sobre todo por su gran capacidad de autovalidación de una manera extremadamente fácil y sin necesidad de utilizar JavaScript.
+            </p>
+            <br>
+            <h3 id="titulo" class="title">Etiquetas para formularios</h3>
+            <br>
+            <p class="parrafonegro">Lo primero a tener en cuenta hace referencia a la estructura general. Así, todas las etiquetas que vamos a utilizar para el formulario tienen que estar ubicadas dentro de las etiquetas del formulario < form > y < /form >.</p>
+            <br>
+            
+            <h4 id="titulo" class="title">Etiqueta input</h4>
+            <br>
+            <img src="assets/input.png" alt="">
+            <p class="parrafonegro">
+                Con <strong>type</strong> indicamos qué tipo de datos estamos pidiendo. Si queremos un campo de texto más largo o extenso podemos especificarlo con <strong>size</strong>.
+                Con <strong>title</strong> podemos incluir un texto adicional que aparecerá cuando el usuario coloque el cursor encima.
+                <strong>name</strong> es importante ya que es la manera en la que se identificará este valor al enviar la información.
+                En todo el formulario sólo puede haber un campo con <strong>autofocus</strong>, ya que este parámetro señala qué campo del formulario estará inicialmente seleccionado por defecto para que el usuario pueda escribir sin tener que seleccionarlo.
+                El parámetro <strong>required</strong> indica que este campo es obligatorio y que sino se rellena no se podrá enviar la información.
+                
+            </p>
+            <br>
+            <h3 class="title" id="titulo">Ejemplo de Formulario</h3>
+            <br>
             <form action="formularios.html" method="get">
                 <table align="center">
                     <tr>

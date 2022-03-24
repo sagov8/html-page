@@ -20,7 +20,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="quiensoy.html">¿Quién soy?</a></li>
                 <li><a href="#">Tutoriales</a>
                     <ul>
                         <li><a href="bordes.html">Bordes</a></li>
@@ -29,14 +29,15 @@
                     </ul>
                 </li>
                 <li><a href="formularios.html">Formularios</a></li>
-                <li><a href="video.html">Video</a></li>
+                <li><a href="video.html">Multimedia</a></li>
             </ul>
         </nav>
     </div>
     <div style="color: black; background-color: #2a2a36; padding-top: 3rem; padding-bottom: 3rem;"
         align="center">
         <section>
-            <h2 class="title">El elemento HTML "< video >"</video></h2>
+            <h2 class="title" id="titulo">El elemento HTML "< video >"</video></h2>
+            <br>
             <p class="parrafo">Para mostrar un video en HTML, use la etiqueta < video >:</p>
             <br>
             <img src="assets\video-example.jpg" alt="video-example tag html">
@@ -47,17 +48,50 @@
             <ul>
                 <li><p class="parrafo">El atributo <strong>controls</strong> agrega controles de video, como reproducción, pausa y volumen.</p></li>
             </ul>
-
-            <h2 class="title">Diferentes estándares de video</h2>
-
+            <br>
+            <h3 class="title" id="titulo">Diferentes estándares de video</h3>
             <video width="500" height="400" controls preload="auto" poster="..\assets\gorillaz.jpg">
                 <source src="..\assets\video.mp4" type="video/mp4">
 
                 Your browser does not support the video tag.
             </video>
+            <br>
+            <br>
             <div>
                 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s61XojpFKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <br>
+            <h2 class="title" id="titulo">Audio</h2>
+            <br>
+            <p class="parrafo">Para utilizar audio en HTML5 sin usar plugins externos ocurre algo parecido que con el vídeo. Existen diferentes formatos de audio y desgraciadamente no existe ninguno que funcione perfectamente en todos los navegadores, por lo que al menos tendremos que utilizar dos formatos para poder abarcarlos a todos.
+
+                Estos 2 formatos de audio mayoritarios son: mp3 y ogg.
+            </p>
+            <br>
+            <h3 class="title" id="titulo">Compatibilidad con navegadores</h3>
+            <br>
+            <img src="assets/formatos.png" alt="">
+            <br>
+            <h3 class="title" id="titulo">Uso y Ejemplo</h3>
+            <br>
+            <p class="parrafo">El código sencillo para un único formato de audio sería así:</p>
+            <br>
+            <img src="assets/audio.png" alt="">
+            <br>
+            <br>
+            <h4 class="title" id="titulo">Ejemplo</h4>
+            <br>
+            <audio src="assets/a view to old stars.mp3" controls loop>
+            </audio>
+            <br>
+            <br>
+            <h2 class="title" id="titulo">Animación</h2>
+            <br>
+            <p class="parrafo">De una manera parecida a las transiciones, pero con una mayor potencialidad, en HTML5 tenemos a nuestra disposición las animaciones (animation).
+
+                Para empezar con algo sencillo, primero vamos a hacer paso a paso que el martillo (creado en SVG) -y que ya hemos utilizado en otros temas- gire al colocar el cursor encima.
+
+                Sitúa el cursor encima del martillo para ver la animación.</p>
         </section>
     </div>
     <aside></aside>
