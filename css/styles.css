@@ -157,3 +157,28 @@ img{
     
     padding: 10px;
 }
+
+#martillo {
+    animation:animacion_martillo 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s; 
+  }
+
+  @keyframes animacion_martillo {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(90deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  #degradado-circular{
+    background:-webkit-radial-gradient(center center, ellipse, white 25%, peru 66%, black 96%);
+    padding: 3rem;
+  }

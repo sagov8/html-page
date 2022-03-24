@@ -13,6 +13,84 @@
     <title>Colores</title>
 </head>
 <body>
-    
+    <header> <img src="..\assets/encabezado.jpg" alt="" width="100%"></header>
+    <div style="color: black; background-color: rgb(250, 250, 250);padding-bottom: 3rem;" align="center">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quiensoy.html">¿Quién soy?</a></li>
+                <li><a href="">Tutoriales</a>
+                    <ul>
+                        <li><a href="bordes.html">Bordes</a></li>
+                        <li><a href="colores.html">Colores</a></li>
+                        <li><a href="">Otros</a></li>
+                    </ul>
+                </li>
+                <li><a href="formularios.html">Formularios</a></li>
+                <li><a href="video.html">Multimedia</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="color: black; background-color: #2a2a36; padding-top: 3rem; padding-bottom: 3rem;"
+        align="center">
+        <section>
+            <h2 class="title" id="titulo">Transparencias</h2>
+            <div class="parrafo">
+                <p>En CSS3, se pueden definir transparencias, ya sea en el color de fondo de un < div > en concreto como en algunos elementos individuales.
+                
+                    Así, para definir un color de fondo con un índice de transparencia determinado utilizamos 'rgba (rojo, verde, azul, transparencia)':</p>
+                <br>
+                <img src="assets/degradado.png" alt="">
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <div style="background-color: rgb(250, 250, 20);">
+                                <p>Sin transparencia</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="background-color: rgb(250, 250, 20, 0.4);">
+                                <p>Con transparencia</p>
+                            </div>    
+                        </td>
+                        
+                    </tr>
+                </table>
+
+            <h2 class="title" id="titulo">Degradados</h2>
+            <div class="parrafo">
+                <p>Los degradados a través de código CSS3 han sido una de las que más vueltas han dado hasta estabilizarse y generalizarse de la misma forma en (casi) todos los navegadores.</p>
+            </div>
+            <br>
+            <h3 class="title" id="titulo">Degradados lineales</h3>
+            <br>
+            <p class="parrafo">Primero definimos dónde empieza el degradado (top, bottom, right, left) o bien indicando un ángulo (45deg), seguido de los colores que compondrán el degradado y de manera opcional se puede indicar cuánto durará cada color (en porcentaje).</p>
+            <br>
+            <img src="assets/degradadolineal.png" alt="">
+            <br>
+            <br>
+            <h3 class="title" id="titulo">Degradados circulares</h3>
+            <br>
+            <p class="parrafo">Primero definimos dónde está el centro del degradado a través de una posición horizontal y luego una vertical (utilizando center, top, bottom, right, left o unas coordenadas en píxeles 125px 200px). Seguidamente se define la forma (circle o ellipse). Después opcionalmente se puede definir cómo se expandirá el degradado. Por último se definen los colores que compondrán el degradado y de manera opcional se puede indicar cuánto durará cada color (en porcentaje).
+            </p>
+            <br>
+            <div id="degradado-circular">
+                <p class="parrafonegro">Degradado circular</p>
+            </div>
+            
+        </section>
+    </div>
+    <aside></aside>
+    <footer>
+        <div class="footer">
+            <br>
+            <p>Diseñado por sagov8</p>
+            <br>
+            <a href="https://github.com/sagov8" class="icon-gh"><img src="..\assets/github.png" alt="github" height="30rem"></a>
+            
+        </div>
+    </footer>
 </body>
 </html>
